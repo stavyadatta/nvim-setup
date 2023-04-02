@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt install wget -y
+apt install wget git curl build-essential -y
 
 # adding the repo in the pushd
 
