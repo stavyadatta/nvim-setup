@@ -9,11 +9,7 @@ cd ~
 
 # installing neovim
 wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.deb
-
-apt install ./nvim-linux64.deb
-
 chown -Rv _apt:root ~/nvim-linux64.deb
-
 chmod -Rv 700 ~/nvim-linux64.deb
 
 apt install ./nvim-linux64.deb
@@ -27,3 +23,6 @@ cd luajit/
 
 # Building luajit
 make && make install
+
+# going back to same repo
+popd
