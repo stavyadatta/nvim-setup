@@ -24,5 +24,9 @@ cd luajit/
 # Building luajit
 make && make install
 
+# installing nodejs and npm
+cd ~
+curl -fsSL https://deb.nodesource.com/setup_19.x | bash - && apt install -y nodejs
+
 # going back to same repo
 popd
