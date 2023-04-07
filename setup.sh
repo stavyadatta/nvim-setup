@@ -28,5 +28,9 @@ make && make install
 cd ~
 curl -fsSL https://deb.nodesource.com/setup_19.x | bash - && apt install -y nodejs
 
+# installing ripgrep
+cd ~
+apt-get install ripgrep
+
 # going back to same repo
 popd
