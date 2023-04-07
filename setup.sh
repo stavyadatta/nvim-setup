@@ -32,5 +32,8 @@ curl -fsSL https://deb.nodesource.com/setup_19.x | bash - && apt install -y node
 cd ~
 apt-get install ripgrep
 
+# Fuzzy file finder
+apt install fzf
+
 # going back to same repo
 popd
