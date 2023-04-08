@@ -16,7 +16,7 @@ apt install ./nvim-linux64.deb
 
 # developing the nvim config now
 mkdir -p ~/.config/nvim
-git clone https://github.com/LazyVim/starter ~/.config/nvim
+git clone https://github.com/stavyadatta/lazyVim.git ~/.config/nvim
 rm -rf ~/.config/nvim/.git
 git clone https://luajit.org/git/luajit.git
 cd luajit/
@@ -33,7 +33,7 @@ cd ~
 apt-get install ripgrep -y
 
 # Fuzzy file finder
-apt install fzf  -y
+apt install fzf -y
 
 # Adding Lazygit
 LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
