@@ -8,7 +8,7 @@ pushd .
 cd ~
 
 # installing neovim
-wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.deb
+wget https://github.com/neovim/neovim/releases/download/v0.8.3/nvim-linux64.deb
 chown -Rv _apt:root ~/nvim-linux64.deb
 chmod -Rv 700 ~/nvim-linux64.deb
 
